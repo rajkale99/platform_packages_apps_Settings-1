@@ -155,4 +155,10 @@
         android:title="@string/display_vr_pref_title"
         android:fragment="com.android.settings.display.VrDisplayPreferencePicker" />
 
+     <Preference
+         android:key="colt_theme"
+         android:title="@string/themeroom_title"
+         android:summary="@string/themeroom_summary"
+         android:fragment="com.android.settings.colt.ColtTheme" />
+
 </PreferenceScreen>
